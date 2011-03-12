@@ -19,6 +19,20 @@
   = javascript_include_tag 'dd_belatedpng.js'
   :javascript
     //DD_belatedPNG.fix('img, .png_bg');
+
+-# MOOFWD
+-# Lets add jQuery mobile to this also!
+-# might wanna do the same CDN business as we've done for the jq core
+= javascript_include_tag 'jquery_mobile'
+
+-# the MOOFWD core class - this is where all the tasks and actions reside
+= javascript_include_tag 'moofwd'
+
+-# this is the 'generated' actionchain file created during moostrap process
+= javascript_include_tag 'actionchain'
+
+-# this is the actions script file.
+= javascript_include_tag 'actions'
     
 -#  Append your own using content_for :javascripts
 = yield :javascripts
