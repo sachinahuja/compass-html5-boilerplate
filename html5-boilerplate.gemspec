@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.version = "0.3.2"
-  s.date = "2011-02-26"
+  s.version = "0.0.1"
+  s.date = "2011-03-12"
 
-  s.name = "html5-boilerplate"
+  s.name = "html5-boilerplate-moofwd"
   s.authors = ["Peter Gumeson"]
-  s.summary = %q{A Compass extension based on Paul Irish's HTML5 Boilerplate}
+  s.summary = %q{An extension to Peter Gumeson html5-boilerplate gem with Moofwd specific extensions}
   s.description = %q{A Compass extension based on Paul Irish's HTML5 Boilerplate at http://html5boilerplate.com}
-  s.email = "gumeson@gmail.com"
-  s.homepage = "http://github.com/sporkd/compass-html5-boilerplate"
+  s.email = "sachin@moofwd.com"
+  s.homepage = "http://github.com/sachinahuja/compass-html5-boilerplate"
 
   s.files = %w(README.md LICENSE VERSION)
   s.files += %w(templates/project/files/htaccess)
