@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.version = "0.0.1"
   s.date = "2011-03-12"
 
-  s.name = "html5-boilerplate-moofwd"
+  s.name = "html5-boilerplate"
   s.authors = ["Peter Gumeson"]
   s.summary = %q{An extension to Peter Gumeson html5-boilerplate gem with Moofwd specific extensions}
   s.description = %q{A Compass extension based on Paul Irish's HTML5 Boilerplate at http://html5boilerplate.com}
